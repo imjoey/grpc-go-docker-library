@@ -1,6 +1,6 @@
 # Dockerfile for gRPC Go
 FROM golang:1.10.3
-
+LABEL maintainer="majunjiev@gmail.com" version="2.0"
 RUN apt-get update && apt-get -y install unzip && apt-get clean
 
 # install protobuf
